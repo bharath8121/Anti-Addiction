@@ -1,0 +1,19 @@
+{
+  "name": "Anti-Addiction",
+  "version": "1.0",
+  "description": "Anti-Addiction is a chrome extension used to track your daily usage and time spent on webistes. You can also set timer to limit your usage for particular website.",
+  "permissions": ["storage", "tabs"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "images/appicon.png"
+    }
+  },
+  "icons": {
+    "128": "images/appicon.png"
+  },
+  "manifest_version": 2
+}
